@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio Dio</title>
+    <!--font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <!--icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--cdn Normalise-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--página css-->
+    <link rel="stylesheet" href="./assets/css/global.css" />
+    <link rel="stylesheet" href="./assets/css/header.css" />
+    <link rel="stylesheet" href="./assets/css/content.css" />
+    <link rel="stylesheet" href="./assets/css/acordion.css">
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <div class="image">
+                <img src="./assets/img/perfil.jpg" alt="foto de perfil">
+            </div>
+            <div class="text">
+                <h1 class="title">Olá, eu sou Geovane dos Santos!</h1>
+                <div class="info">
+                    <p><i class="fa-solid fa-user   paint"></i> Desenvolvedor FrontEnd</p>
+                    <p><i class="fa-solid fa-location-dot   paint"></i> Recife-PE</p>
+                    <p><i class="fa-solid fa-phone  paint"></i> (81) 99999-9999</p>
+                    <p><i class="fa-solid fa-envelope   paint"></i> geovane.1998.santos@gmail.com</p>
+                </div>
+            </div>
+        </header>
+        <button type="button" class="accordion">Graduação<i class="fa-solid fa-chevron-down   paint new"></i></button>
+        <div class="panel">
+            <h2 class="titleSection">Ciência da Computação</h2>
+            <section>
+                <ul>
+                    <li>3º periodo</li>
+                    <li>Faculdade Descomplica</li>
+                    <li>Status: Cursando</li>
+
+                </ul>
+            </section>
+        </div>
+        <button type="button" class="accordion">Portfólio<i class="fa-solid fa-chevron-down   paint new"></i></button>
+        <div class="panel">
+            <section class="portfolio">
+                <ul>
+                </ul>
+            </section>
+        </div>
+        <button type="button" class="accordion">Skills<i class="fa-solid fa-chevron-down   paint new"></i></button>
+        <div class="panel">
+            <section class="skill-icons">
+                <h2 class="titleSection">Habilidades profissionais:</h2>
+                <div class="skill-logo">
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-figma"></i>
+                </div>
+            </section>
+            <section class="skill-list">
+                <ul>
+                    <li>Conhecimento em HTML5</li>
+                    <li>Conhecimento em CSS3</li>
+                    <li>Conhecimento em Javascript</li>
+                    <li>Conhecimento em Figma</li>
+                    <li>Conhecimento Bootstrap</li>
+                    <li>Conhecimento Typescript</li>
+                </ul>
+            </section>
+        </div>
+    </div>
+    <script src="./assets/js/index.js"></script>
+</body>
+
+</html>

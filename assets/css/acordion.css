@@ -1,0 +1,93 @@
+
+.panel{
+    max-width: 98%;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: rgb(39, 39, 39);
+    height: fit-content;
+    border-radius: 0 0 1rem 1rem;
+    box-sizing: border-box;
+    display: none;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.titleSection{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.skill-icons{
+    max-width: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.skill-logo{
+    margin:1rem;
+    display: grid;
+    grid-template-columns: 5rem 5rem;
+    grid-auto-rows: 50px;
+    max-width: 100%;
+    text-align: center;
+}
+.skill-list{
+    max-width: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fa-brands{
+    font-size: 2.5rem;
+
+}
+
+
+
+.portfolio{
+    width: 100% ;
+}
+.portfolio li{
+    display: flex;
+    flex-direction: column;
+}
+.portfolio li a{
+    color: #fff;
+    text-decoration: none;
+}
+.portfolio li a:hover{
+    color: greenyellow;
+}
+.portfolio section{
+    margin: 1rem 0;
+    text-align: left;
+    font-size: 1.5rem ;
+}
+.portfolio li i{
+    font-size: 1.5rem;
+    display: inline-block;
+    margin-right: 1rem;
+}
+.cursos ul{
+    list-style: none;
+}
+.cursos span{
+    font-weight: bold;
+    margin: 1rem 0;
+}
+.cursos a{
+    text-decoration: none;
+    color: yellowgreen;
+}
+
+@media screen and (min-width: 700px) {
+    .panel{
+        display: none;
+        overflow: hidden;
+        flex-direction: row ;
+        justify-content: space-around;
+        align-items: center;
+    }
+    }

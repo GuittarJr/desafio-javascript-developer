@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    margin: 0;
+}
+
+body {
+    background: rgb(55,174,143);
+    background: linear-gradient(139deg, rgba(55,174,143,1) 0%, rgba(0,0,0,1) 29%, rgba(0,0,0,1) 61%, rgba(53,162,89,1) 100%);
+    color: #fff;
+    padding: 1rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+}
